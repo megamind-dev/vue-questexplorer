@@ -1,0 +1,48 @@
+.navbar {
+  background: black;
+  .headerTitle {
+    font-size: 35px;
+    font-family: 'HucklebuckJF Regular';
+    color: white;
+    background: black;
+  }
+  a:hover {
+    background: black;
+    color: white;
+  }
+  span {
+    color: white;
+    font-family: 'HelveticaNeue Medium';
+    font-size: 20px;
+  }
+  .field {
+    margin-right: 20px;
+  }
+  .control {
+    margin-right: 20px !important;
+    img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      object-fit: cover;
+    }
+  }
+  .search {
+    margin-top: 20px;
+    input {
+      background: #606060;
+      border: none;
+      color: #B7B7B7;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #B7B7B7;
+      opacity: 1; /* Firefox */
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #B7B7B7;
+    }
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: #B7B7B7;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.setting {
+  .suggest {
+    background: white;
+    margin: 20px 0px;
+    min-height: 500px;
+    .avatar {
+      padding: 20px 0px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        object-fit: cover;
+        margin-top: 5px;
+      }
+      span {
+        font-family: 'HelveticaNeue Medium';
+        font-size: 14px;
+        text-decoration: underline;
+        color: $pink_color;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    }
+    .comment {
+      font-family: 'HelveticaNeue Medium';
+      font-size: 14px;
+      color: #7B7B7B;
+      margin-top: 10px;
+      display: block;
+      span {
+        color: $pink_color;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+  .profile {
+    margin-top: 40px;
+    .info {
+      .user {
+        .avatar {
+          text-align: center;
+          img {
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            object-fit: cover;
+          }
+        }
+        .detail {
+          .name {
+            font-family: 'HelveticaNeue Bold';
+            font-size: 18px;
+            color: #232323;
+          }
+          button {
+            width: 100%;
+            font-family: 'HelveticaNeue Medium';
+            font-size: 14px;
+            color: #333333;
+          }
+          .count {
+            margin-right: 10px;
+          }
+        }
+      }
+      .quests {
+        .quest {
+          .main-bg {
+            min-height: 280px;
+            cursor: pointer;
+            .progressive-image {
+              min-height: 280px;
+              object-fit: cover;
+            }
+          }
+          .text {
+            min-height: 110px;
+          }
+          img {
+            border-radius: 10px;
+            min-height: 280px;
+          }
+          button {
+            width: 100px;
+          }
+          .name {
+            font-family: 'HelveticaNeue Bold';
+            font-size: 20px;
+            color: #555555;
+          }
+          .description {
+            font-family: 'HelveticaNeue Medium';
+            font-size: 14px;
+            color: #5F5F5F;
+          }
+          .like {
+            background: #000000;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 10px;
+            span {
+              color: #FFFFFF;
+              font-family: 'HelveticaNeue Medium';
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .objectives {
+        .objective {
+          background: white;
+          margin-top: 30px;
+          border-radius: 20px;
+          .image {
+            padding: 0;
+            img {
+              width: 150px;
+              height: 150px;
+              border-radius: 20px;
+              object-fit: cover;
+            }
+          }
+          .title {
+            color: #3E3E3E;
+            font-family: 'HelveticaNeue Medium';
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

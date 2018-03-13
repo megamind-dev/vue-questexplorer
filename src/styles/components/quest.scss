@@ -1,0 +1,59 @@
+.create-quest {
+  .suggest {
+    background: white;
+    margin: 20px 0px;
+    min-height: 500px;
+    .content {
+      padding-bottom: 100px;
+      .title {
+        font-family: 'HelveticaNeue Medium';
+        font-size: 25px;
+        color: #484848;
+        margin-top: 20px;
+        display: block;
+      }
+      .comment {
+        font-family: 'HelveticaNeue Medium';
+        font-size: 14px;
+        color: #7B7B7B;
+        margin-top: 10px;
+        display: block;
+        span {
+          color: $pink_color;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      .field {
+        margin-bottom: 10px;
+      }
+      .btn {
+        text-align: center;
+        margin-top: 30px;
+        .addObjectBtn {
+          color: $pink_color;
+          outline: none;
+          border: none;
+          text-decoration: underline;
+        }
+        .submitBtn {
+          margin-top: 10px;
+          width: 70% !important;
+          color: white;
+          background: $pink_color;
+          font-family: 'HelveticaNeue Medium';
+          font-size: 16px;
+          border-radius: 4px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+      .delete {
+        text-align: right;
+        i {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

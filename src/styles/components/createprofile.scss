@@ -1,0 +1,85 @@
+.create {
+  text-align: center;
+  .title {
+    margin-top: 100px;
+    p {
+      font-family: 'HucklebuckJF Regular';
+      font-size: 60px;
+      color: $pink_color;
+      margin-top: 20px;
+    }
+  }
+  .profile {
+    width: 350px;
+    height: 300px;
+    background: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    img {
+      width: 50px;
+      height: 50px;
+      margin-top: 40px;
+    }
+    .add {
+      font-family: 'HelveticaNeue Medium';
+      font-size: 15px;
+      color: black;
+    }
+    .friend {
+      font-family: 'HelveticaNeue Medium';
+      font-size: 13px;
+      color: gray;
+      line-height: 1.2;
+      display: block;
+      margin-top: 20px;
+    }
+    .custom-dropzone {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      .addPhotoBtn {
+        width: 250px;
+        font-family: 'HelveticaNeue Medium';
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        background: $main_blue_color;
+        margin-top: 20px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    #customdropzone {
+      height: 34px;
+      margin-top: 3px;
+      width: 250px;
+      text-align: center;
+      z-index: 999;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .addPhotoBtn {
+      width: 250px;
+      font-family: 'HelveticaNeue Medium';
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      background: $main_blue_color;
+      margin-top: 20px;
+    }
+    .skipBtn {
+      color: $black_color;
+      font-size: 13px;
+      font-family: 'HelveticaNeue Medium';
+      border: none;
+      outline: none;
+      margin-top: 10px;
+      color: $main_blue_color;
+    }
+  }
+}

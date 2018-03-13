@@ -1,0 +1,16 @@
+
+@import "./global/index"; // Global Styles
+@import "./components/index"; // Components Styles
+
+body {
+  background: #F5F5F5;
+  min-height: 100vh;
+}
+
+.loginForm {
+  border: 1px solid #DDDDDD;
+  background: white;
+  .title {
+    text-align: center;
+  }
+}

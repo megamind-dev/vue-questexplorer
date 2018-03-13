@@ -1,0 +1,8 @@
+@import "./fonts.scss"; // global font
+@import "./colors.scss"; // global color
+@import "./layouts.scss"; // global layout
+
+body {
+  background: $main_bg_color;
+  min-height: 100vh;
+}

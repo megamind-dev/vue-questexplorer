@@ -1,0 +1,74 @@
+.people {
+  .discover {
+    margin-top: 50px;
+    .comment {
+      font-family: 'HelveticaNeue Medium';
+      font-size: 15px;
+      color: #868686;
+    }
+    .all {
+      font-family: 'HelveticaNeue Medium';
+      font-size: 14px;
+      color: #E850C9;
+      cursor: pointer;
+    }
+    .card {
+      height: 210px;
+      text-align: center;
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        object-fit: cover;
+        margin-top: 20px;
+      }
+      .username {
+        font-family: 'HelveticaNeue Medium';
+        font-size: 15px;
+        color: #080808;
+      }
+      .fullName {
+        font-family: 'HelveticaNeue Regular';
+        font-size: 15px;
+        font-weight: bold;
+        color: #4E4E4E;
+      }
+      button {
+        width: 100px;
+        margin-top: 10px;
+        background: $pink_color;
+        color: white;
+      }
+    }
+  }
+  .explore {
+    margin-top: 50px;
+    .user {
+      background: white;
+      height: 360px;
+      img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+      }
+      .description {
+        font-family: 'HelveticaNeue Regular';
+        font-size: 14px;
+        font-weight: bold;
+        color: #868686;
+        margin-left: 5px;
+      }
+      .count {
+        font-family: 'HelveticaNeue Medium';
+        font-size: 22px;
+        color: #868686;
+      }
+      .complete {
+        font-family: 'HelveticaNeue Regular';
+        font-size: 11px;
+        font-weight: bold;
+        color: #868686;
+      }
+    }
+  }
+}

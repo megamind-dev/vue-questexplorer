@@ -1,0 +1,126 @@
+.login {
+  .loginForm {
+    border: 1px solid #DDDDDD;
+    background: $white_color;
+    text-align: center;
+    margin-top: 20px;
+    .title {
+      text-align: center;
+      margin-bottom: 0px;
+      p {
+        font-family: 'HucklebuckJF Regular';
+        font-size: 60px;
+        color: $pink_color;
+        margin-top: 20px;
+      }
+    }
+    .card-content {
+      text-align: center;
+      .facebooBtn {
+        margin-top: 10px;
+        width: 100% !important;
+        color: white;
+        background: $pink_color;
+        font-family: 'HelveticaNeue Medium';
+        font-size: 16px;
+        border-radius: 4px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        i {
+          margin-right: 5px;
+        }
+      }
+      .separator {
+        margin-top: 10px;
+        color: gray;
+        font-family: 'HelveticaNeue Medium';
+        font-size: 16px;
+        h2 {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+        }
+        h2:after {
+          display: inline-block;
+          margin: 0 0 6px 20px;
+          height: 1px;
+          content: " ";
+          text-shadow: none;
+          background-color: #999;
+          width: 90px;
+        }
+        h2:before {
+          display: inline-block;
+          margin: 0 20px 6px 0;
+          height: 1px;
+          content: " ";
+          text-shadow: none;
+          background-color: #999;
+          width: 90px;
+        }
+      }
+      input {
+        border: 1px solid $gray_color;
+        background: #FAFAFA;
+        color: black;
+        margin-top: 10px;
+      }
+      .loginBtn {
+        margin-top: 10px;
+        width: 100% !important;
+        color: white;
+        background: $pink_color;
+        font-family: 'HelveticaNeue Medium';
+        font-size: 16px;
+        border-radius: 4px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .forgotBtn {
+        color: $black_color;
+        font-size: 13px;
+        font-family: 'HelveticaNeue Medium';
+        border: none;
+        outline: none;
+        margin-top: 20px;
+      }
+    }  
+  }
+
+  .btnForm {
+    border: 1px solid #DDDDDD;
+    background: $white_color;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'HelveticaNeue Medium';
+    color: black;
+    font-size: 16px;
+    .signup {
+      color: $pink_color;
+      cursor: pointer;
+    }
+  }
+
+  .storeForm {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'HelveticaNeue Medium';
+    color: black;
+    font-size: 16px;
+    .store-icons {
+      margin-top: 10px;
+      .appstore {
+        text-align: right;
+      }
+      .playstore {
+        text-align: left;
+      }
+      img {
+        width: 150px;
+        cursor: pointer;
+      }
+    }
+  }
+}

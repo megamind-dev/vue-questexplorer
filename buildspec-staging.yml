@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - printenv
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 sync --delete --cache-control "max-age=31536000" dist "s3://"
